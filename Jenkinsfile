@@ -1,5 +1,5 @@
 node {
-	stage('CheckOut'){
+	stage('CheckOutstage'){
 		checkout scm
 		echo 'Check Out!'
 		sh './gradlew clean'
